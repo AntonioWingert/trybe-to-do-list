@@ -1,0 +1,89 @@
+.selected {
+  background-color: gray;
+  border-radius: 8px;
+}
+
+body {
+  font-family: Josefin Sans, sans-serif;
+  width: 768px;
+  margin: auto;
+  background-color: rgb(211 , 204 , 171);
+  color: black;
+  text-align: center;
+}
+
+main {
+  background-color: rgb(152 , 195 , 161);
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  margin-top: 0;
+}
+
+h1 {
+  color: black;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+header {
+  background-color: rgb(37 , 133 , 125);
+  padding-bottom: 5px;
+}
+
+button {
+  background-color: rgb(163 , 190 , 140);
+  border: 1px solid rgb(46 , 52 , 64);
+  color: blac;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  filter: brightness(75%);
+}
+
+input {
+  padding: 8px;
+  border: 1px solid rgb(46 , 52 , 64);
+  border-radius: 8px;
+  background-color: rgb(229 , 233 , 240);
+  color: rgb(46 , 52 , 64);
+}
+
+li {
+  line-height: 32px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#apaga-tudo {
+  background-color: rgb(189 , 55 , 55);
+  color: rgb(229 , 233 , 240);
+}
+
+#remover-finalizados {
+  background-color: rgb(37 , 133 , 125);
+  color: rgb(229 , 233 , 240);
+}
+
+#remover-selecionado {
+  background-color: rgb(235 , 203 , 139);
+  color: rgb(46 , 52 , 64);
+}
+
+#salvar-tarefas {
+  background-color: rgb(94 , 129 , 172);
+  color: rgb(229 , 233 , 240);
+}
+
+.position {
+  margin-bottom: 8px;
+}
